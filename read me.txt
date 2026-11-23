@@ -7,4 +7,11 @@ node js 22 or later
 **frontend:react js
 **backend:node js
 
-please run this commant in powershell or command prompt in root of program directory in windows:"node server.js"
+
+**run program:
+
+copy this commant in powershell or command prompt in root of program directory in windows:"node server.js"
+ 
+copy this url in your browser:"http://localhost:4000"
+
+press enter.
