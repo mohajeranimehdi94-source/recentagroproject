@@ -1,0 +1,212 @@
+/* استایل کلی صفحه */
+body {
+  font-family: Vazirmatn, Tahoma, sans-serif;
+  background: #f9f9f9;
+  margin: 20px;
+  direction: rtl;
+}
+
+/* استایل برای div اصلی */
+#div {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* سرچ باکس */
+#div input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+/* جدول */
+.newtable {
+  width: 150%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.newtable thead {
+  background: #007bff;
+  color: white;
+}
+
+.newtable th,
+.newtable td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.newtable tbody tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.newtable tbody tr:hover {
+  background: #e6f2ff;
+  transition: 0.2s;
+}
+
+/* متن noresult */
+#span {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  color: rgb(38, 38, 41);
+  font-size: 14px;
+  font-weight: bold;
+}
+.newtable {
+  border-collapse: collapse;
+  width: 150%;
+  
+}
+
+.newtable th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+
+.newtable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#inputnumber {
+width: 36;
+
+}
+/* برای کروم، سافاری و اج */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#noresul{
+align-content: center;
+  text-align: center;
+  font-size: 20px;
+  color: red;
+}
+#selectc{
+  border-color: #174679;
+  background-color: #f9f9fa;
+  width: 150px;
+  height: 25px;
+  font-size: 15px;
+  
+}
+/* پس‌زمینه نیمه شفاف برای تمرکز روی آلارم */
+/* پس زمینه تار */
+/* پس‌زمینه نیمه شفاف برای تمرکز روی آلارم */
+#alamm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border: 2px solid #444;
+  border-radius: 12px;
+  padding: 20px 30px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  text-align: center;
+  z-index: 1000;
+  font-family: sans-serif;
+  min-width: 250px;
+  animation: fadeIn 0.1s ease-in-out;
+}
+
+/* متن آلارم */
+#alamm span {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* دکمه OK */
+#alamm button {
+  padding: 8px 16px;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#alamm button:hover {
+  background: #45a049;
+}
+
+/* انیمیشن نمایش */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, -45%); }
+  to   { opacity: 1; transform: translate(-50%, -50%); }
+}
+/* جدول اصلی */
+#tabler {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+  direction: rtl; /* چون متنت فارسی هست */
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* سرستون‌ها */
+#tabler thead th {
+  background: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-weight: bold;
+}
+
+/* سلول‌های بدنه */
+#tabler tbody td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+/* ردیف‌های راه‌راه */
+#tabler tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* افکت هاور روی ردیف */
+#tabler tbody tr:hover {
+  background: #f1f1f1;
+  transition: background 0.2s;
+}
+
+/* دکمه حذف */
+#tabler tbody button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #f44336;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#tabler tbody button:hover {
+  background: #d32f2f;
+}

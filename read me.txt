@@ -1,0 +1,2 @@
+hello
+to run program please run this commant in powershell or command prompt in root of program directory in windows:"node server.js"

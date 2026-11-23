@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrintJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QLabelSDKVersion>1.3.0.0</QLabelSDKVersion>
+  <Label>
+    <SerialFormat>
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+    </SerialFormat>
+    <VariableFormat>
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+      <string xsi:nil="true" />
+    </VariableFormat>
+    <qlabel>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="58.994812" Y="362.821228" Alignment="Left" AlignPointX="58.994812" AlignPointY="362.821228" FontCmd="Arial,23&#xD;&#xA;" FontWidth="25" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>10</Id>
+        <Name>W</Name>
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>لطفا با باربری ارسال شود</DispData>
+        <Data>لطفا با باربری ارسال شود</Data>
+        <BoundRectWidth>548.731567</BoundRectWidth>
+        <BoundRectHeight>74.56796</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>58.994812</X>
+            <Y>362.821228</Y>
+          </Location>
+          <Size>
+            <Width>548.731567</Width>
+            <Height>74.56796</Height>
+          </Size>
+          <X>58.994812</X>
+          <Y>362.821228</Y>
+          <Width>548.731567</Width>
+          <Height>74.56796</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="47.86203" Y="262" Alignment="Left" AlignPointX="47.86203" AlignPointY="262" FontCmd="Arial,27&#xD;&#xA;" FontWidth="28" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>true</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>9</Id>
+        <Name>W</Name>
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>تلفن:09141806639</DispData>
+        <Data>تلفن:09141806639</Data>
+        <BoundRectWidth>555.883362</BoundRectWidth>
+        <BoundRectHeight>87.5363</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>47.86203</X>
+            <Y>262</Y>
+          </Location>
+          <Size>
+            <Width>555.883362</Width>
+            <Height>87.5363</Height>
+          </Size>
+          <X>47.86203</X>
+          <Y>262</Y>
+          <Width>555.883362</Width>
+          <Height>87.5363</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="66" Y="157.916229" Alignment="Left" AlignPointX="66" AlignPointY="157.916229" FontCmd="Arial,27&#xD;&#xA;" FontWidth="37" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>8</Id>
+        <Name>W</Name>
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>جناب آقای آزاد مرادی</DispData>
+        <Data>جناب آقای آزاد مرادی</Data>
+        <BoundRectWidth>547.966064</BoundRectWidth>
+        <BoundRectHeight>87.5363</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>66</X>
+            <Y>157.916229</Y>
+          </Location>
+          <Size>
+            <Width>547.966064</Width>
+            <Height>87.5363</Height>
+          </Size>
+          <X>66</X>
+          <Y>157.916229</Y>
+          <Width>547.966064</Width>
+          <Height>87.5363</Height>
+        </BoundRect>
+      </GraphicShape>
+      <GraphicShape xsi:type="WindowText" Style="Cross" IsPrint="true" Locked="false" bStroke="true" bFill="true" Direction="Angle0" X="71.54974" Y="26.1266479" Alignment="Left" AlignPointX="71.54974" AlignPointY="26.1266479" FontCmd="Arial,37&#xD;&#xA;" FontWidth="26" TextSpace="0">
+        <qHitOnCircumferance>false</qHitOnCircumferance>
+        <Selected>false</Selected>
+        <iBackground_color>4294967295</iBackground_color>
+        <Id>7</Id>
+        <Name>W</Name>
+        <DataField>None</DataField>
+        <Prompt>None</Prompt>
+        <DispData>گیرنده: بوکان</DispData>
+        <Data>گیرنده: بوکان</Data>
+        <BoundRectWidth>456.091858</BoundRectWidth>
+        <BoundRectHeight>119.957153</BoundRectHeight>
+        <BoundRect>
+          <Location>
+            <X>71.54974</X>
+            <Y>26.1266479</Y>
+          </Location>
+          <Size>
+            <Width>456.091858</Width>
+            <Height>119.957153</Height>
+          </Size>
+          <X>71.54974</X>
+          <Y>26.1266479</Y>
+          <Width>456.091858</Width>
+          <Height>119.957153</Height>
+        </BoundRect>
+      </GraphicShape>
+    </qlabel>
+    <VariableOpFormat />
+    <DateFormat>y2-me-dd</DateFormat>
+    <TimeFormat>h:m:s</TimeFormat>
+    <DataBaseFormat>None</DataBaseFormat>
+    <DataBaseFilePath />
+    <DataBaseSelection />
+    <UserID />
+    <Password />
+    <IntegratedSecurity>false</IntegratedSecurity>
+    <RowIndex>0</RowIndex>
+  </Label>
+  <Setup LabelLength="62" LabelWidth="92" LeftMargin="16" TopMargin="0" LabelType="0" GapLength="2" FeedLength="0" ZSign="45" BlackMark="0" Position="0" Speed="2" Copy="1" bCopyDataBase="false" CopyField="None" Stripper="0" LabelsPerCut="0" Rotate180="200" Stop="12" Darkness="5" Number="1" bNumberDataBase="false" NumberField="None" PageDirection="Portrait" PrintMode="1">
+    <Layout Shape="2" AcrossType="Copied" PageDirection="Portrait" HorAcross="1" VerAcross="1" HorGap="0" VerGap="0" HorAcrossMode1="0" VerAcrossMode1="0" LabelMode="0" HorGapMode1="0" VerGapMode1="0" />
+    <Description>New Label</Description>
+    <UnitType>Mm</UnitType>
+    <Dpi>203</Dpi>
+  </Setup>
+  <DriverName />
+  <PrinterModel>G500</PrinterModel>
+  <PrinterLanguage>EZPL</PrinterLanguage>
+  <USBName>GODEX G500#213803C6</USBName>
+  <COMName />
+  <CommunicationType>Network</CommunicationType>
+  <NetworkIPAddress>0</NetworkIPAddress>
+  <NetworkPort>9100</NetworkPort>
+  <BaudRate>9600</BaudRate>
+  <ComSettings>N81</ComSettings>
+  <StandaloneDbSearchKey />
+  <StandaloneDbEnable>false</StandaloneDbEnable>
+</PrintJob>

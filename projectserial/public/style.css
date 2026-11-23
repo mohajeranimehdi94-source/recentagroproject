@@ -1,0 +1,123 @@
+body {
+  font-family: "Vazirmatn", sans-serif;
+  direction: rtl;
+  background: #f4f6f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* همه المان‌ها کنار هم */
+#serdiv, #sendiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+#serdiv label {
+  margin: 0;
+  font-weight: 500;
+}
+
+input, select, button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#sendiv button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#sendiv button:hover {
+  background: #0056b3;
+}
+
+#ich {
+  min-width: 200px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead {
+  background: #007bff;
+  color: white;
+}
+
+thead th {
+  padding: 10px;
+  text-align: center;
+}
+
+tbody td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+tbody tr:hover {
+  background: #f1f1f1;
+}
+
+#dbn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#dbn:hover {
+  background: #a71d2a;
+}
+
+/* پیام هشدار */
+#alamm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  text-align: center;
+  animation: fadeIn 0.099s ease-in-out;
+  z-index: 999;
+}
+#alamm span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#alamm button {
+  background: #2ecc71;
+  color: white;
+}
+
+/* انیمیشن */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, -45%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>صفحه اصلی</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: "Tahoma", sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+    }
+
+    h1 {
+      color: #fff;
+      margin-bottom: 40px;
+      font-size: 28px;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+    }
+
+    .btn-container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .btn-container a {
+      text-decoration: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 12px;
+      background: #fff;
+      color: #333;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .btn-container a:hover {
+      background: #ff9800;
+      color: #fff;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <h1>سامانه مدیریت بار و انبار</h1>
+  <div class="btn-container">
+    <a href="/p1"> رزرو بارگیری</a>
+    <a href="/p2"> محاسبه وزن</a>
+    <a href="/p3"> سریال دستگاه های ارسال شده</a>
+  </div>
+</body>
+</html>

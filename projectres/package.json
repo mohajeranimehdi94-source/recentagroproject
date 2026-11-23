@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "kavenegar": "^1.1.4",
+    "moment-jalaali": "^0.10.4",
+    "multer": "^2.0.1",
+    "sqlite3": "^5.1.7"
+  }
+}

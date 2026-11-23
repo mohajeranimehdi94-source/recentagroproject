@@ -1,0 +1,233 @@
+/* بدنه کلی */
+body {
+  direction: rtl;
+  font-family: 'Vazir', sans-serif;
+  background: #f4f7fa;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* کانتینر اصلی */
+#div {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+/* اینپوت جستجو */
+#div input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  transition: border 0.2s;
+}
+#div input[type="text"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* انتخاب دسته‌بندی */
+#selectc {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 10px 0 20px 0;
+  font-size: 14px;
+}
+
+/* جدول اصلی */
+#newtable, #divt table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 14px;
+}
+#newtable th, #divt th {
+  background: #3498db;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+#newtable td, #divt td {
+  padding: 8px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+#newtable tr:nth-child(even), #divt tr:nth-child(even) {
+  background: #f9f9f9;
+}
+#newtable input{
+  width: 30px;
+}
+/* دکمه‌ها */
+button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  opacity: 0.9;
+}
+#dbtn {
+  background: #e74c3c;
+  color: white;
+}
+#vbtn {
+  background: #3498db;
+  color: white;
+  height: 30px;
+  font-size: 15px;
+}
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+/* پیام هشدار */
+#alamm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  text-align: center;
+  animation: fadeIn 0.099s ease-in-out;
+  z-index: 999;
+}
+#alamm span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#alamm button {
+  background: #2ecc71;
+  color: white;
+}
+
+/* انیمیشن */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, -45%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}
+#divtable{
+  max-width: 1100px;
+  margin: auto;
+}
+
+#divtable input{
+  width: 50px;
+  margin-top: 20px;
+}
+/* بخش وسیله نقلیه */
+#spanv {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 15px;
+  background: #ecf0f1;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #588ef1;
+  font-weight: bold;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#sb{
+   background: #3498db;
+  color: white;
+  width: 100px;
+  height: 25px;
+  font-size: 15px;
+}
+/* کانتینر اصلی پیام تأیید */
+/* پس‌زمینه تار برای دیالوگ */
+#confird {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px 25px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  z-index: 1000;
+  min-width: 300px;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* متن */
+#confird #spc {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* ورودی‌ها */
+#confird input {
+  display: block;
+  width: 90%;
+  margin: 8px auto;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+#confird input:focus {
+  border-color: #4CAF50;
+}
+
+/* دکمه‌ها */
+#confird button {
+  margin: 10px 8px 0 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#confird button:first-of-type {
+  background: #4CAF50;
+  color: #fff;
+}
+
+#confird button:first-of-type:hover {
+  background: #45a049;
+}
+
+#confird button:last-of-type {
+  background: #f44336;
+  color: #fff;
+}
+
+#confird button:last-of-type:hover {
+  background: #d32f2f;
+}
+
+/* انیمیشن محو شدن */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, -45%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}
