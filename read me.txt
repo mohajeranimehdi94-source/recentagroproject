@@ -10,7 +10,7 @@ node js 22 or later
 
 **run program:
 
-copy this commant in powershell or command prompt in root of program directory in windows:"node server.js"
+copy this command in powershell or command prompt in root of program directory in windows:"node server.js"
  
 copy this url in your browser:"http://localhost:4000"
 
