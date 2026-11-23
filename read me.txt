@@ -1,2 +1,10 @@
-hello
-to run program please run this commant in powershell or command prompt in root of program directory in windows:"node server.js"
+
+
+**requirement:
+windows 8 or later
+node js 22 or later
+
+**frontend:react js
+**backend:node js
+
+please run this commant in powershell or command prompt in root of program directory in windows:"node server.js"
